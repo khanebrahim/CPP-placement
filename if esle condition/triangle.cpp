@@ -16,5 +16,6 @@ int main()
         cout<<"this is a scalene triangle.\n"<<endl;
     }
     return 0;
+    
 
 }
