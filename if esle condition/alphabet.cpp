@@ -9,7 +9,9 @@ int main()
     isLowercaseVowel=(c=='a'||c=='e'||c=='o'||c=='u');
     isuppercaseVowel=(c=='A'||c=='E'||c=='O'||c=='U');
     if(isLowercaseVowel||isuppercaseVowel)
-    cout<<c<<"is a vowel"<<endl;
-    cout<<c<<"is a consonant"<<endl;
+        cout<<c<<" is a vowel"<<endl;
+    else{
+        cout<<c<<" is a consonant"<<endl;
+    }
+
     return 0;
-}
